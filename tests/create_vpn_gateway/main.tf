@@ -10,7 +10,7 @@ resource "random_string" "this" {
 }
 
 module "vpc" {
-  source = "github.com/terraform-aws-modules/terraform-aws-vpc?ref=v3.2.0"
+  source = "github.com/terraform-aws-modules/terraform-aws-vpc?ref=v3.14.1"
 
   providers = {
     aws = aws
